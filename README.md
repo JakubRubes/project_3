@@ -5,7 +5,6 @@ This project was created as the third assignment for the Engeto Online Python Ac
 The script downloads official election results for the 2017 elections to the Chamber of Deputies of the Czech Republic from the public website volby.cz.  
 It collects results for all municipalities within a selected district and saves them into a CSV file.
 
----
 
 ## What does the script do?
 
@@ -18,7 +17,6 @@ The script performs the following steps:
    - extracts vote counts for all political parties  
 3. Saves all collected data into a single CSV file
 
----
 
 ## Output data
 
@@ -34,7 +32,6 @@ Each row in the resulting CSV file represents one municipality and contains:
 
 The CSV file is encoded in UTF-8 and can be opened in spreadsheet software.
 
----
 
 ## Requirements
 
@@ -43,7 +40,6 @@ The CSV file is encoded in UTF-8 and can be opened in spreadsheet software.
   - requests
   - beautifulsoup4
 
----
 
 ## Installation
 
@@ -52,7 +48,6 @@ Install required libraries using:
 ```bash
 pip install -r requirements.txt
 ```
----
 
 ## Example requirements.txt:
 
@@ -60,7 +55,6 @@ requests
 
 beautifulsoup4
 
----
 
 ## How to run the script:
 
@@ -72,7 +66,6 @@ python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnu
 
 After successful execution, the file praha_vychod.csv will be created in the current directory.
 
----
 
 ## Tested Environment:
 
@@ -80,7 +73,6 @@ Python 3.13.3
 Operating system: Windows 
 Example district: Praha-východ (Central Bohemian Region)
 
----
 
 ## Notes:
 
@@ -88,8 +80,6 @@ The script relies on the current HTML structure of volby.cz.
 Party names and column headers are taken directly from the source website.
 URLs must be enclosed in quotes when running the script due to special characters.
 
----
 
-## Authoer:
-Jakub Rubes
-Created as part of the Engeto Online Python Academy.
+## Author:
+Jakub Rubes created this as part of the Engeto Online Python Academy.
