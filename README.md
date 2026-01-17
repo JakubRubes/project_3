@@ -57,11 +57,12 @@ pip install -r requirements.txt
 ## Example requirements.txt:
 
 requests
+
 beautifulsoup4
 
 ---
 
-##How to run the script
+## How to run the script:
 
 Run the script with two command-line arguments: the district URL and the output CSV file.
 
@@ -73,7 +74,7 @@ After successful execution, the file praha_vychod.csv will be created in the cur
 
 ---
 
-##Tested environment
+## Tested Environment:
 
 Python 3.13.3
 Operating system: Windows 
@@ -81,7 +82,7 @@ Example district: Praha-východ (Central Bohemian Region)
 
 ---
 
-##Notes
+## Notes:
 
 The script relies on the current HTML structure of volby.cz.
 Party names and column headers are taken directly from the source website.
@@ -89,6 +90,6 @@ URLs must be enclosed in quotes when running the script due to special character
 
 ---
 
-##Author
+## Authoer:
 Jakub Rubes
 Created as part of the Engeto Online Python Academy.
