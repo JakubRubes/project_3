@@ -51,7 +51,7 @@ Install required libraries using:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## Example requirements.txt:
@@ -64,7 +64,10 @@ beautifulsoup4
 ##How to run the script
 
 Run the script with two command-line arguments: the district URL and the output CSV file.
+
+```bash
 python main.py "https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2109" praha_vychod.csv
+```
 
 After successful execution, the file praha_vychod.csv will be created in the current directory.
 
